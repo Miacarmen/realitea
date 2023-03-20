@@ -1,0 +1,20 @@
+{
+  "name": "realitea",
+  "version": "1.0.0",
+  "description": "A place to talk about all your favorite reality TV shows and stars",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Miacarmen/realitea.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Miacarmen/realitea/issues"
+  },
+  "homepage": "https://github.com/Miacarmen/realitea#readme"
+}
