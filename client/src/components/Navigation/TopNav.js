@@ -1,21 +1,33 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { NavLink } from 'react-router-dom';
-
+import { BiMenu } from 'react-icons/bi';
 import './nav.styles.css';
 
 const TopNav = () => {
+    // const [isOpen, setIsOpen] = useState(false);
+
+    // const toggleDropdown = () => {
+    //   setIsOpen(!isOpen);
+    // };
+
+   
+
   return (
-    <nav class="navbar">
-  <div class="navbar-logo">
+    <nav className="navbar">
+  <div className="navbar-logo">
     <p>Logo</p>
   </div>
-  <ul class="navbar-menu">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Services</a></li>
-    <li><a href="#">Portfolio</a></li>
-    <li><a href="#">Contact</a></li>
+  <div className="navbar-menu">
+  <div className="dropdown dropdown-end">
+  <button className='btn btn-ghost btn-circle'><BiMenu size={'25'}/></button>
+  <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+    <li><a>Home</a></li>
+    <li><a>Dashboard</a></li>
+    <li><a>Search Shows</a></li>
   </ul>
+</div>
+  </div>
+  
 </nav>
 
   )

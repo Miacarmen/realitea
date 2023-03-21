@@ -12,24 +12,15 @@
   
   .navbar-menu {
     display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
   }
   
-  .navbar-menu li {
-    margin: 0 10px;
+  .dropdown-content a:hover {
+    background-color: #FFA07A;
   }
+
   
-  .navbar-menu li a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    color: #333;
-  }
   
-  .navbar-menu li:hover a {
-    background-color: #333;
-    color: #fff;
-  }
+ 
+  
+ 
   
