@@ -13,8 +13,10 @@ const Filter = () => {
           <option>Popular</option>
           <option>Trending Now</option>
           <option>Recently Added</option>
-          <option>Air Date - Newest</option>
-          <option>Air Date - Oldest</option>
+          <option>Release Date - Newest</option>
+          <option>Release Date - Oldest</option>
+          <option>A-Z</option>
+          <option>Z-A</option>
         </select>
         <button className='btn inputBtn bg-accent hover:bg-accent-focus'>Go</button>
       </div>

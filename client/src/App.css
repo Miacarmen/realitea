@@ -83,3 +83,9 @@ body,
 .square2 p {
   margin: 7em;
 }
+
+
+.titleSection {
+  text-align: center;
+  border-bottom: solid 1px #000;
+}
