@@ -1,0 +1,15 @@
+.input {
+    border-left: solid 1px #000;
+    border-top: solid 1px #000;
+    border-bottom: solid 1px #000;
+}
+
+.inputBtn {
+    border: solid 1px #000;
+}
+
+.select {
+    border-left: solid 1px #000;
+    border-top: solid 1px #000;
+    border-bottom: solid 1px #000;
+}

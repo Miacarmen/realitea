@@ -7,6 +7,8 @@ import Footer from './components/Footer/Footer';
 
 // Pages
 import Home from './pages/Home';
+import ShowSearch from './pages/Search';
+import Dashboard from './pages/Dashboard';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
           <div className='wrapper'>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/search" element={<ShowSearch />} />
+            <Route path="/dashboard" element={<Dashboard />} />
           </Routes>
        </div>
         <Footer />

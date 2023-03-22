@@ -1,9 +1,11 @@
 import React from 'react';
 import { BsInstagram, BsTwitter, BsFacebook } from 'react-icons/bs';
 
+import './footer.styles.css';
+
 const Footer = () => {
     return (
-      <footer className='footer grid grid-flow-col p-10  justify-between bg-base-200 text-base-content rounded absolute'>
+      <footer className='footer grid grid-flow-col p-10  justify-between text-base-content rounded absolute'>
         <div className='grid col-span-2 gap-4 '>
           <p className='text-lg font-bold pb-3'>LOGO</p>
           <p className='link link-hover'>About Us</p>
