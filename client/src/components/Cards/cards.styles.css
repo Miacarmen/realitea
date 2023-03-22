@@ -2,10 +2,11 @@
     border: solid 1px #000;
 }
 
-.badgeContainer {
+.iconContainer {
     display: flex;
     justify-content: end;
     padding-right: 8px;
     padding-top: 3px;
+    cursor: pointer;
     /* align-items: center; */
 }
