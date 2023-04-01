@@ -30,13 +30,13 @@ const commentSchema = new Schema({
         },
     ],
 
-    responses: [
-        {
-            type: Schema.Types.ObjectId,
-            ref: 'Comment',
-        },
-    ],
-    
+    // responses: [
+    //     {
+    //         type: Schema.Types.ObjectId,
+    //         ref: 'Comment',
+    //     },
+    // ],
+
     // set up relationship to User & Show models
     showId: {
         type: Schema.Types.ObjectId,

@@ -8,6 +8,9 @@ const seasonSchema = new Schema({
   nextSeason: {
     type: String,
   },
+  headerImg: {
+    type: String,
+  },
   episodes: [
     {
       type: Schema.Types.ObjectId,

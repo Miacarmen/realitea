@@ -14,7 +14,7 @@ const showSchema = new Schema({
     required: true,
   },
   currSeason: {
-    type: Number,
+    type: String,
     required: true,
   },
   nextSeason: {
@@ -23,9 +23,11 @@ const showSchema = new Schema({
   newEpisodes: {
     type: String,
   },
-  tags: {
-    type: String,
-  },
+  tags: [
+    {
+      type: String,
+    },
+  ],
   likes: {
     type: Number,
   },
