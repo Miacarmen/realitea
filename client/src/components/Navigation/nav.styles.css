@@ -1,8 +1,13 @@
+/* .navContainer {
+  margin-left: 15em;
+    margin-right: 15em;
+} */
+
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    /* padding: 10px; */
     border-bottom: solid 1px #000;
   }
   

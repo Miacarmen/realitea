@@ -14,15 +14,21 @@ function App() {
   return (
     <>
       <Router>
-        <TopNav />
-          <div className='wrapper'>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/search" element={<ShowSearch />} />
-            <Route path="/dashboard" element={<Dashboard />} />
-          </Routes>
-       </div>
-        <Footer />
+        
+        <div className='gridContainer grid grid-cols-5'>
+          <div className='grid-item col1'>Column 1</div>
+          <div className='grid-item col2 col-span-3'>
+            Column 2
+            <TopNav />
+            <Routes>
+              <Route path='/' element={<Home />} />
+              <Route path='/search' element={<ShowSearch />} />
+              <Route path='/dashboard' element={<Dashboard />} />
+            </Routes>
+            {/* <Footer /> */}
+          </div>
+          <div className='grid-item col1'>Column 3</div>
+        </div>
       </Router>
     </>
   );

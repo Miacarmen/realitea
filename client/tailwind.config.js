@@ -7,15 +7,15 @@ module.exports = {
     themes: [
       {
         mytheme: {
-          primary: '#FFA07A',
-
-          'primary-focus': '#FF7F50',
+          primary: '#F86FB5',
+          
+          'primary-focus': '#E43292',
 
           secondary: '#FF6347',
 
-          accent: '#FFB6C1', 
+          accent: '#FFA07A', 
 
-          'accent-focus': '#FF8698',
+          'accent-focus': '#FF7F50',
 
           neutral: '#D9D9D9',
 
@@ -23,9 +23,9 @@ module.exports = {
 
           'base-200': '#BBBBBB',
 
-          'base-300': '#2A303C',
+          'base-300': '#0B264E',
           
-          'base-content': '#191D24',
+          'base-content': '#000000',
 
           info: '#3ABFF8',
 
