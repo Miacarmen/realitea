@@ -1,11 +1,56 @@
-const express = require('express')
-const app = express()
-const port = 4000
+// const express = require('express')
+// const app = express()
+// const port = 4000
 
-app.get('/', (req, res) => {
-  res.send('Hello World!')
+// app.get('/', (req, res) => {
+//   res.send('Hello World!')
+// })
+
+// app.listen(port, () => {
+//   console.log(`Example app listening on port ${port}`)
+// })
+
+const path = require("path");
+const express = require('express');
+const db = require('./config/connection');
+const { authMiddleware } = require("./utils/auth");
+
+const { ApolloServer } = require('apollo-server-express');
+const { typeDefs, resolvers } = require('./schemas');
+
+const server = new ApolloServer({ typeDefs, resolvers, context: authMiddleware, introspection: true, playground: true});
+
+const PORT = process.env.PORT || 4000;
+const app = express();
+
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+
+// if we're in production, serve client/build as static assets
+if (process.env.NODE_ENV === 'production') {
+    app.use(express.static(path.join(__dirname, '../client/build')));
+}
+
+//This route forces the React Router to load when it hasn't been loaded, instead of giving the dreaded 404 error
+app.get('/*', function(req, res) {
+  res.sendFile(path.join(__dirname, '../client/build/index.html'), function(err) {
+    if (err) {
+      res.status(500).send(err)
+    }
+  })
 })
 
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
-})
+const startApolloServer = async (typeDefs, resolvers) => {
+  await server.start();
+
+  // Update Express.js to use Apollo server features
+  server.applyMiddleware({ app });
+};
+
+db.once('open', () => { // Start the database connection
+  app.listen(PORT, () => { // Start the Express server
+    console.log(`Adventure book server running on port ${PORT}!`);
+  });
+});
+
+startApolloServer(typeDefs, resolvers); // Start the Apollo server
