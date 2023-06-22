@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../assets/trash-talk-logo.jpg';
+import Logo from '../assets/trash-talk-logo-4.png';
 
 import Gallery from '../components/Gallery/Gallery';
 import Searchbar

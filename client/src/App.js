@@ -7,8 +7,13 @@ import Footer from './components/Footer/Footer';
 
 // Pages
 import Home from './pages/Home';
-import ShowSearch from './pages/Search';
+import Login from './pages/Login';
+import Signup from './pages/Signup';
 import Dashboard from './pages/Dashboard';
+import TitlePage from './pages/TitlePage';
+import Episodes from './pages/Episodes';
+import Chats from './pages/Chats';
+import SearchResults from './pages/SearchResults';
 
 function App() {
   return (
@@ -22,13 +27,19 @@ function App() {
             <TopNav />
             <Routes>
               <Route path='/' element={<Home />} />
-              <Route path='/search' element={<ShowSearch />} />
+              <Route path='/title' element={<TitlePage />} />
+              <Route path='/episodes' element={<Episodes />} />
+              <Route path='/chats' element={<Chats />} />
+              <Route path='/searchresults' element={<SearchResults />} />
               <Route path='/dashboard' element={<Dashboard />} />
+              <Route path='/login' element={<Login />} />
+              <Route path='/signup' element={<Signup />} />
             </Routes>
-            {/* <Footer /> */}
+            <Footer />
           </div>
           <div className='grid-item col1'>Column 3</div>
         </div>
+       
       </Router>
     </>
   );
