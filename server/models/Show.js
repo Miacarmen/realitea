@@ -13,7 +13,11 @@ const showSchema = new Schema({
     type: String,
     required: true,
   },
-  currSeason: {
+  currSeasonNum: {
+    type: String,
+    required: true,
+  },
+  totleSeasons: {
     type: String,
     required: true,
   },
@@ -21,6 +25,9 @@ const showSchema = new Schema({
     type: String,
   },
   newEpisodes: {
+    type: String,
+  },
+  releaseDate: {
     type: String,
   },
   tags: [
