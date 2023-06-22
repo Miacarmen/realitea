@@ -15,11 +15,9 @@ const Searchbar = () => {
         placeholder="Search..."
         aria-label="Search"
         aria-describedby="button-addon2" />
-      <span
-        class="input-group-text flex items-center bg-base-300 whitespace-nowrap border border-solid border-base-300 px-3 py-1.5 text-center text-base font-normal text-base-content "
-        id="basic-addon2">
-        <button><BsSearch style={{ color: '#F86FB5' }}/></button>
-      </span>
+     
+        <button className='bg-base-300 px-3'><BsSearch id='magGlassIcon'/></button>
+
     </div>
   </div>
 </div>

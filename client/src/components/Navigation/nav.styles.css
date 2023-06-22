@@ -7,10 +7,22 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 10px; */
-    border-bottom: solid 1px #000;
+    /* border-bottom: solid 1px #000; */
   }
   
+  .navLink {
+    padding-right: 4px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Baskevile', serif;
+    font-style: italic;
+  }
+
+  .navLink:hover {
+    color: #F86FB5;
+    background-color: #0B264E;
+  }
+
   .navbar-logo img {
     height: 40px;
   }

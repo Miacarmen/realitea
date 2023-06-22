@@ -1,6 +1,9 @@
-#subBtn:hover {
-  
-  background-color: #0B264E;
+#magGlassIcon {
+  color: #F86FB5;
+}
+
+#magGlassIcon:hover {
+  color: #0B264E;
 }
   
 

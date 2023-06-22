@@ -13,11 +13,11 @@ const SubscriptionBar = () => {
          placeholder="Enter your email"
          aria-label="Subscription"
          aria-describedby="button-addon2" />
-       <span
-         class="input-group-text flex items-center bg-base-300 whitespace-nowrap border border-solid border-base-300 px-3 py-1.5 text-center text-base font-normal text-base-content "
-         id="basic-addon2">
-         <button className='subBtn bg-base-300 text-primary' id='subBtn'>Subscribe</button>
-       </span>
+       {/* <span
+         class="input-group-text flex items-center bg-base-300 whitespace-nowrap border border-solid border-base-300 px-3 py-1.5 text-center text-base font-normal text-base-300"
+         id="basic-addon2"> */}
+         <button className='subBtn bg-base-300 text-primary px-2' id='subBtn'>Subscribe</button>
+       {/* </span> */}
      </div>
    </div>
  </div>

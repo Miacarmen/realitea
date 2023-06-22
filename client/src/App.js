@@ -19,11 +19,9 @@ function App() {
   return (
     <>
       <Router>
-        
         <div className='gridContainer grid grid-cols-5'>
-          <div className='grid-item col1'>Column 1</div>
+          <div className='grid-item col1'></div>
           <div className='grid-item col2 col-span-3'>
-            Column 2
             <TopNav />
             <Routes>
               <Route path='/' element={<Home />} />
@@ -37,9 +35,8 @@ function App() {
             </Routes>
             <Footer />
           </div>
-          <div className='grid-item col1'>Column 3</div>
+          <div className='grid-item col1'></div>
         </div>
-       
       </Router>
     </>
   );
