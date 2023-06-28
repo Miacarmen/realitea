@@ -2,3 +2,7 @@
     border-top: solid 1px #000;
     justify-content: center;
 } */
+
+.footer-link:hover {
+    color: #F86FB5;
+}

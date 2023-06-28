@@ -40,14 +40,20 @@ body,
 
 button:hover {
   background-color: #f86fb5;
-  color: #0b264e;
-  border: #0b264e;
+  color: #0a2b5c;
+  border: #0a2b5c;
 }
 
 .head-title {
   text-align: left;
   font-size: 33px;
   font-weight: 700;
+}
+
+.forumBtn:hover {
+  background-color: #ffffff;
+  color: #F86FB5;
+  border: 1px solid #000000;
 }
 
 /* Title Page */
@@ -90,7 +96,7 @@ button:hover {
 }
 
 .grid-season-item p {
-  color: #0b264e;
+  color: #0a2b5c;
   font-size: 15px;
   font-weight: 400;
 }
@@ -99,7 +105,7 @@ button:hover {
   text-align: left;
   font-size: 33px;
   font-weight: 700;
-  color: #0b264e;
+  color: #0a2b5c;
 }
 
 .seasons-item {
@@ -107,11 +113,56 @@ button:hover {
   text-align: center;
   align-content: center;
   margin: 7px;
-  color: #0b264e;
+  color: #0a2b5c;
+  background-color: #FFA07A;
   box-shadow: 2px 2px 5px 2px #c3c3c3;
+  border: none;
+
 }
 
 .seasons-item:hover {
-  background-color: #ffffff;
+  background-color: #F86FB5;
+  color: #0a2b5c;
+}
+
+
+/* Episodes Page */
+.episodes-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.episodes-header {
+  text-align: left;
+  font-size: 33px;
+  font-weight: 700;
+  color: #0a2b5c;
+}
+
+.arrowBtn {
+  justify-content: start;
+  border: none;
+}
+
+.arrowBtn:hover {
   color: #F86FB5;
+}
+
+.episode-item {
+  text-align: center;
+  align-content: center;
+  background-color: #FFA07A;
+  color: #0b264e;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 45px;
+  padding-right: 45px;
+  border: none;
+  font-weight: 200;
+  /* box-shadow: 2px 2px 5px 2px #c3c3c3; */
+}
+
+.episode-item:hover {
+  background-color: #F86FB5;
+  color: #0a2b5c;
 }

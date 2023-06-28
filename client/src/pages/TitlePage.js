@@ -34,7 +34,7 @@ const TitlePage = () => {
       </div>
 
       <div className='seasons-container mt-4 mb-12'>
-        <Button className='seasons-item'>Season 1</Button>
+        <Link to='/episodes'><Button className='seasons-item'>Season 1</Button></Link>
         <Button className='seasons-item'>Season 2</Button>
         <Button className='seasons-item'>Season 3</Button>
       </div>

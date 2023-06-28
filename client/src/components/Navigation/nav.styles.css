@@ -20,7 +20,7 @@
 
   .navLink:hover {
     color: #F86FB5;
-    background-color: #0B264E;
+    /* background-color: #0B264E; */
   }
 
   .navLink:active {
@@ -47,6 +47,10 @@
   font-weight: 200;
  }
  
+ .loginBtn:hover {
+  color: #F86FB5;
+
+ }
   
  
   

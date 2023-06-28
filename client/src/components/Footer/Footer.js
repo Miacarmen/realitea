@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import { BsInstagram, BsTwitter, BsFacebook, BsReddit } from 'react-icons/bs';
 
 import './footer.styles.css';
@@ -20,10 +21,10 @@ const Footer = () => {
       <div className='footer-links'>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items grid grid-flow-col gap-4'>
-            <h2>About Us</h2>
-            <h2>Contact</h2>
-            <h2>Forums</h2>
-            <h2>Suggestions</h2>
+            <NavLink to='/about' className='footer-link'>About Us</NavLink>
+            <NavLink to='/contact' className='footer-link'>Contact</NavLink>
+            <NavLink to='/forums' className='footer-link'>Forums</NavLink>
+            <NavLink to='/suggestions' className='footer-link'>Suggestions</NavLink>
           </div>
         </div>
       </div>
