@@ -1,4 +1,32 @@
 .topicCard {
-    width: 100%;
-    border-radius: 20px;
+  border-radius: 20px;
+}
+
+.card-title {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.card-content {
+  border-bottom: 1px solid #000000;
+}
+
+.userIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card-actions-left {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-actions-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-left: 80px;
+  font-size: small;
 }

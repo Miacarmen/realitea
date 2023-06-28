@@ -19,7 +19,7 @@ const Home = () => {
         <Searchbar />
       </div>
       <div>
-        <h1 className='gallery-title text-base-300'>Trending Now</h1>
+        <h1 className='head-title text-base-300'>Trending Now</h1>
       </div>
 
       <div className='gallery-wrapper'>
@@ -32,7 +32,7 @@ const Home = () => {
       </div>
 
       <div>
-        <h1 className='gallery-title text-base-300 pt-8'>Upcoming Season Premieres</h1>
+        <h1 className='head-title text-base-300 pt-8'>Upcoming Season Premieres</h1>
       </div>
 
       <div className='premiere-wrapper mt-8'>
@@ -40,7 +40,7 @@ const Home = () => {
       </div>
 
       <div>
-        <h1 className='gallery-title text-base-300 pt-24'>Trending Topics</h1>
+        <h1 className='head-title text-base-300 pt-24'>Trending Topics</h1>
       </div>
       <div className='topic-wrapper mt-8'>
         <Topics />

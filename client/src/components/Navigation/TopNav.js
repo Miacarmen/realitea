@@ -24,14 +24,15 @@ const TopNav = () => {
         <NavLink to='/dashboard' className='navLink pl-2'>
           Forums
         </NavLink>
-        <NavLink to='/search' className='navLink pl-2'>
-          Shows
+        <NavLink to='/title' className='navLink pl-2'>
+          Show Details
         </NavLink>
       </div>
       <div className='navbar-end '>
         <NavLink to='/login'>
           <FaUserCircle className='userIcon' size={25} />
         </NavLink>
+        <p className='loginBtn pl-2'>Login</p>
       </div>
     </nav>
   );

@@ -37,7 +37,15 @@
   }
 
   
-  
+ .navbar-end {
+  display: flex;
+  flex-direction: row;
+ } 
+
+ .loginBtn {
+  cursor: pointer;
+  font-weight: 200;
+ }
  
   
  
