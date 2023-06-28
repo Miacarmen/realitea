@@ -23,8 +23,9 @@
     background-color: #0B264E;
   }
 
-  .navbar-logo img {
-    height: 40px;
+  .navLink:active {
+    color: #F86FB5;
+    background-color: #0B264E;
   }
   
   .navbar-menu {

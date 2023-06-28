@@ -10,18 +10,33 @@ body,
   margin: 0;
   padding: 0;
   font-family: 'Poppins', serif;
+  background-color: #ffffff;
+  border: none;
+}
+
+.gridContainer {
+
 }
 
 .grid-item {
-  background-color: #ffffff;
-  border: 1px solid #dddddd;
   padding: 20px;
-  text-align: center;
+  /* text-align: center; */
+}
+
+#col1 {
+  border: none;
+}
+
+#col2 {
+  border: none;
+}
+
+#col3 {
+  border: none;
 }
 
 .wrapper {
   min-height: 100vh;
-  border: solid 1px #000;
   /* top, right, bottom, left */
   margin: 0px 15em 0px 15em;
   /* padding-bottom: 60px; */
@@ -33,4 +48,10 @@ button:hover {
   background-color: #F86FB5;
   color: #0B264E;
   border: #0B264E;
+}
+
+.gallery-title {
+  text-align: left;
+  font-size: 33px;
+  font-weight: 700;
 }
