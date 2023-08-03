@@ -12,14 +12,14 @@ import Signup from './pages/Signup';
 import Dashboard from './pages/Dashboard';
 import TitlePage from './pages/TitlePage';
 import Episodes from './pages/Episodes';
-import Chats from './pages/Chats';
+import Forums from './pages/Forums';
 import SearchResults from './pages/SearchResults';
 
 function App() {
   return (
     <>
       <Router>
-        <div className='gridContainer grid grid-cols-5 bg-base-300 border-none'>
+        <div className='gridContainer grid grid-cols-5 border-none'>
           <div className='grid-item col1' id='col1'></div>
           <div className='grid-item col2 col-span-3' id='col2'>
             <TopNav />
@@ -27,7 +27,7 @@ function App() {
               <Route path='/' element={<Home />} />
               <Route path='/title' element={<TitlePage />} />
               <Route path='/episodes' element={<Episodes />} />
-              <Route path='/chats' element={<Chats />} />
+              <Route path='/forums' element={<Forums />} />
               <Route path='/searchresults' element={<SearchResults />} />
               <Route path='/dashboard' element={<Dashboard />} />
               <Route path='/login' element={<Login />} />

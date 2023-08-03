@@ -11,7 +11,7 @@ module.exports = {
           
           'primary-focus': '#E43292',
 
-          secondary: '#FF6347',
+          secondary: '#FFA07A',
 
           accent: '#FFC757', 
 
