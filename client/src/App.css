@@ -169,33 +169,3 @@ button:hover {
   color: #0a2b5c;
 } */
 
-.forum-main-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: solid black 1px;
-}
-
-.forum-nav-outter {
-  display: flex;
-  justify-content: center;
-}
-.forum-nav-container {
-  display: flex;
-  justify-content: space-between;
-  width: 95%;
-}
-
-.left-forum-nav li, .right-forum-nav li {
-  display: inline-block;
-  font-weight: 200;
-}
-
-.left-forum-nav li a, .right-forum-nav li a{
-  display: block;
-  
-}
-
-.left-forum-nav li {
-  padding-right: 24px;
-}

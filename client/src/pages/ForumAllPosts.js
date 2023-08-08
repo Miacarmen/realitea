@@ -1,8 +1,12 @@
 import React from 'react'
 
+import ForumNav from '../components/Forums/ForumNav'
+
 const ForumAllPosts = () => {
   return (
-    <div>ForumAllPosts</div>
+    <div>
+        <ForumNav />
+    </div>
   )
 }
 

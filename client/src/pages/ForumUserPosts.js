@@ -1,8 +1,12 @@
 import React from 'react'
 
+import ForumNav from '../components/Forums/ForumNav'
+
 const ForumUserPosts = () => {
   return (
-    <div>ForumUserPosts</div>
+    <div>
+      <ForumNav />
+    </div>
   )
 }
 
