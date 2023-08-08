@@ -12,7 +12,10 @@ import Signup from './pages/Signup';
 import Dashboard from './pages/Dashboard';
 import TitlePage from './pages/TitlePage';
 import Episodes from './pages/Episodes';
-import Forums from './pages/Forums';
+import ForumCategories from './pages/ForumCategories';
+import ForumAllPosts from './pages/ForumAllPosts';
+import ForumSearch from './pages/ForumSearch';
+import ForumUserPosts from './pages/ForumUserPosts'
 import Chats from './pages/Chats';
 import SearchResults from './pages/SearchResults';
 
@@ -28,7 +31,9 @@ function App() {
               <Route path='/' element={<Home />} />
               <Route path='/title' element={<TitlePage />} />
               <Route path='/episodes' element={<Episodes />} />
-              <Route path='/forums' element={<Forums />} />
+              <Route path='/forumcategories' element={<ForumCategories />} />
+              <Route path='/allposts' element={<ForumAllPosts />} />
+              <Route path='/userposts' element={<ForumUserPosts />} />
               <Route path='/chats' element={<Chats />} />
               <Route path='/searchresults' element={<SearchResults />} />
               <Route path='/dashboard' element={<Dashboard />} />

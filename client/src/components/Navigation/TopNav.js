@@ -21,7 +21,7 @@ const TopNav = () => {
         <NavLink to='/' className='navLink pl-2'>
           Home
         </NavLink>
-        <NavLink to='/forums' className='navLink pl-2'>
+        <NavLink to='/forumcategories' className='navLink pl-2'>
           Forums
         </NavLink>
         <NavLink to='/title' className='navLink pl-2'>
