@@ -35,7 +35,7 @@ const Home = () => {
         <h1 className='head-title text-base-300 pt-8'>Upcoming Season Premieres</h1>
       </div>
 
-      <div className='premiere-wrapper mt-8'>
+      <div className='premiere-wrapper flex mt-8'>
         <Premieres />
       </div>
 

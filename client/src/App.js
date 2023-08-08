@@ -13,6 +13,7 @@ import Dashboard from './pages/Dashboard';
 import TitlePage from './pages/TitlePage';
 import Episodes from './pages/Episodes';
 import Forums from './pages/Forums';
+import Chats from './pages/Chats';
 import SearchResults from './pages/SearchResults';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
               <Route path='/title' element={<TitlePage />} />
               <Route path='/episodes' element={<Episodes />} />
               <Route path='/forums' element={<Forums />} />
+              <Route path='/chats' element={<Chats />} />
               <Route path='/searchresults' element={<SearchResults />} />
               <Route path='/dashboard' element={<Dashboard />} />
               <Route path='/login' element={<Login />} />
