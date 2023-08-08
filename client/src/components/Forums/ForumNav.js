@@ -28,7 +28,7 @@ const ForumNav = () => {
                 aria-describedby='button-addon2'
               />
 
-              <button className='bg-base-300 px-3'>
+              <button className='forum-search-btn bg-base-300 px-3'>
                 <BsSearch id='magGlassIcon' />
               </button>
             </div>

@@ -16,7 +16,7 @@ const TitlePage = () => {
 
 <div className='show-details-box'>
         <div className='show-details grid grid-cols-2'>
-          <div className='currSeason grid-season-item'><h2 className='text-base-300 font-semibold'>Current Season:</h2>
+          <div className='currSeason grid-season-item'><h2 className='font-semibold'>Current Season:</h2>
           <p className='text-base-300'>0</p>
           </div>
           <div className='newEpisodes grid-season-item'>

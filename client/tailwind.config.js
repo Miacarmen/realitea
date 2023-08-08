@@ -8,6 +8,7 @@ module.exports = {
       {
         mytheme: {
           primary: '#F86FB5',
+          // primary: '#C75A92',
           
           'primary-focus': '#E43292',
 
